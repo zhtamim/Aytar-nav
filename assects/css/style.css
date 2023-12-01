@@ -1,0 +1,160 @@
+
+
+/* Table of content
+======================================
+************** common css ************
+1)Reset css
+2)Top header section
+3)Menu bar section
+4)Inner page heading
+5)Product card
+6)Footer section
+======================================
+*************** Home Page **************
+1)Top header section
+2)Menu bar section
+3)Banner section
+4)Feature section
+*/
+
+/* reset css */
+body{
+    font-family: var(--primary-font);
+}
+p{
+    font-family: var(--secondary-font);
+}
+h1,h2,h3,h4,h5,h6
+ul,ol,span,small,p{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+input:focus{
+    outline: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+/* reset css */
+:root{
+    --primary-font: 'Josefin Sans', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+    --text-color:#11161e;
+    --dark-hover-color:#151a32;
+    --light-color:#ffffff;
+    --dark-color:#000000;
+    --primary-color-light:#ff6f61;
+    --primary-color-dark:#ff5645;
+    --paragraph-color:#444444;
+    --bg-color-light:#f1f1f1;
+    --bg-color-dark:#f1f3f4;
+
+
+}
+                      /* Top header section  start*/
+#header{
+    background-color: var(--dark-hover-color);
+}
+#header .top_header_left p{
+    color: var(--light-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 11px 0;
+}
+#header .top_header_left p #icn{
+    color:var(--primary-color-dark)
+}
+#header .top_header_left p span{
+    color: var(--primary-color-dark);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+#header .top_header_right{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 0 0 0;
+}
+#header .top_header_right li a{
+    color: var(--light-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 8px;
+    transition: .6s;
+}
+#header .top_header_right li a:hover{
+    color: var(--primary-color-light);
+}
+#header .top_header_right  button{
+    border: none;
+    background: none;
+    color: var(--light-color);
+    padding: 0 12px;
+}
+#header .top_header_right  button span{
+    transition: .6s;
+}
+#header .top_header_right  button span:hover{
+    color: var(--primary-color-dark);
+}
+#header .top_header_right .dropdown li a{
+    color: var(--dark-hover-color);
+    transition: .6s;
+}
+#header .top_header_right .dropdown li a:hover{
+    color: var(--primary-color-dark);
+}
+#header .top_header_right .sol_icon li a{
+    padding: 16px 0 0 12px;
+    font-size: 18px;
+    transition: .6s;
+}
+#header .top_header_right .sol_icn li a:hover{
+    color: var(--primary-color-light);
+}
+
+                      /* Top header section end */
+                      /* nav section start */
+#navbar{
+    background-color: var(--bg-color-dark);
+    padding: 18px 0;
+}                     
+#navbar .nav_menu button{
+    border:none;
+    background: none;
+    color: var(--dark-hover-color);
+}
+
+#navbar .nav_menu ul li a{
+    color: var(--dark-hover-color);
+    transition: .6s;
+}
+#navbar .nav_menu ul li a:hover{
+    color: var(--primary-color-light);
+
+}
+#navbar .nav_icon ul li a{
+    color: var(--dark-color);
+    padding: 0 0  0 20px;
+    transition: .6s;
+    font-size: 20px;
+    
+}
+#navbar .nav_icon ul li a:hover{
+    color: var(--primary-color-light);
+}
+
+                      /* nav section end */
+                      
